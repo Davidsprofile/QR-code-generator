@@ -2,7 +2,8 @@ package main
 
 import (
 	"net/http"
-	"os" // Import os package for environment variables
+	// Import os package for environment variables
+	"os"
 
 	"github.com/gin-gonic/gin"
 	"github.com/skip2/go-qrcode"
