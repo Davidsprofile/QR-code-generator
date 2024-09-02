@@ -15,7 +15,7 @@ func main() {
 	r.LoadHTMLGlob("templates/*")
 
 	r.GET("/", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "index.html", nil)
+		c.HTML(http.StatusOK, "index.htm", nil)
 	})
 
 	r.POST("/generate", func(c *gin.Context) {
